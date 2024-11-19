@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: var(--sec-light, #f7f7f7);
+    display: flex;
+}
+
+.navbar-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 0 1px 0;
+    height: 80px;
+    border-bottom: 2px solid black;
+}
+
+.logo-section {
+    justify-content: space-between;
+    background-color: var(--colors-primary, #fff);
+    display: flex;
+    gap: 0px;
+    padding: 17px 62px;
+}
+
+.company-logo {
+    aspect-ratio: 0.85;
+    object-fit: auto;
+    object-position: center;
+    width: 40px;
+}
+
+.nav-section1 {
+    align-self: start;
+    display: flex;
+    margin-top: 1px;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+}
+
+.nav-section2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.company-name{
+    color: #f29400;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 400 24px PT Serif Caption, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.menu {
+    justify-content: space-between;
+    align-self: start;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    font-size: 16px;
+    color: var(--colors-font, #000);
+    font-weight: 500;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+.slogan {
+    color: #2d3192;
+    font: 400 12px PT Serif, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+}
+
+a:hover {
+    color: #ff6a00;
+}
+
+a:active{
+    color: #ff6a00;
+}
+

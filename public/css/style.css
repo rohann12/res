@@ -1,0 +1,445 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.img-4 {
+  aspect-ratio: 100;
+  object-fit: auto;
+  object-position: center;
+  width: 460px;
+  stroke-width: 4px;
+  stroke: var(--colors-primary, #fff);
+  margin-top: 121px;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .img-4 {
+    margin-top: 40px;
+  }
+}
+
+.our-service {
+  background-color: #01A6DE;
+  padding-left: 108px;
+  padding-top: 86px;
+}
+
+.card-boxes {
+  background-color: #01A6DE;
+  font-family: 'DM Sans', sans-serif;
+  height: 240px;
+  overflow: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.box {
+  width: 27%;
+  height: 55vh;
+  background-color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 30px;
+}
+
+.content {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 1.5;
+  text-align: left;
+
+}
+
+.explore-more {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 200px;
+  background-color: #F5F5F5;
+}
+
+.more-button {
+
+  color: #f7f7f7;
+  font-size: 15px;
+  background-color: #01A6DE;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+}
+
+.main-appointment {
+  background-color: #01A6DE;
+  height: 150px;
+}
+
+.appointment {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  background-color: #01A6DE;
+}
+
+.appointment h2 {
+  color: #f7f7f7;
+}
+
+.Appointment-button {
+  color: #01A6DE;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+}
+
+.choose-us {
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  /* Ensures spacing between the main containers */
+  align-items: flex-start;
+  /* Align items at the start */
+  padding: 20px;
+}
+
+.text-container {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.text-container h2 p {
+  margin-left: 100px;
+}
+
+.circle-container {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  height: 100%;
+  /* Adjust based on your preference */
+  max-height: 700px;
+  /* This controls the spacing and overall height */
+}
+
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 220px;
+  height: 400px;
+  background-color: #000;
+  color: #f7f7f7;
+  border-radius: 50%;
+  border: 5px solid #01A6DE;
+}
+
+.circle span {
+  display: block;
+  /* Ensure spans are displayed as block elements */
+  margin-bottom: 10px;
+  /* Add margin to create space between spans */
+}
+
+dl {
+  padding-top: 30px;
+  padding-left: 100px;
+  gap: 50px;
+}
+
+dt {
+  display: flex;
+  align-items: center;
+}
+
+dl dt {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+dl dd {
+  padding: 20px 0;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+dt::before {
+  content: "\f101";
+  /* This is the FontAwesome code for the fa-angle-double-right icon. */
+  font-family: 'Font Awesome 5 Free';
+  /* Adjust if you are using a different version */
+  color: #01A6DE;
+  /* Change the color as needed */
+  margin-right: 8px;
+  /* Add some spacing between the icon and the text */
+  font-weight: 900;
+  /* FontAwesome icons require a font-weight of 900 for solid icons */
+  font-size: 50px;
+  position: relative;
+}
+
+.client-partners {
+  height: 200px;
+  background-color: #DBDBDB;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.remaining-portion{
+  height: 35vh;
+  background-color: #f7f7f7;
+}
+
+.half-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.half-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 55%; /* Adjust this value to control the width of the underline */
+  height: 4px; /* Adjust this value to control the thickness of the underline */
+  background-color:  #f29400; /* Adjust the color of the underline */
+}
+
+
+.featuredproject{
+  width: 100%;
+  height: 120vh;
+  background-color: #fff;
+}
+
+.projectheader {
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.buttons button{
+  border: 2px solid #dcdcdc;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.buttons svg{
+  padding: 5px 0;
+  fill: black; 
+  transition: fill 0.3s ease;
+}
+
+.buttons button:hover{
+  border: 2px solid  #f29400 ;
+}
+
+.buttons button:hover svg path{
+  fill: #f29400; /* Color on hover */
+}
+
+.half-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.half-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 55%; /* Adjust this value to control the width of the underline */
+  height: 4px; /* Adjust this value to control the thickness of the underline */
+  background-color:  #f29400; /* Adjust the color of the underline */
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: var(--sec-light, #f7f7f7);
+}
+
+.carousel{
+  width:100%;
+  position: relative;
+}
+
+.carousel-timeline {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  height: 5px;
+  background-color: #ffffff;
+  animation: timelineMove 5s linear infinite;
+}
+
+@keyframes timelineMove {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.container-inner {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 63vh;
+  width: 100%;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 65vh;
+  left: 50px; 
+  transform: translateY(-85px);
+  background-color: none;
+  padding: 20px;
+  width: 75%;
+}
+
+.hotel-name {
+  text-align: left;
+  text-transform: uppercase;
+  /* font: 500 24px/150% DM Sans, sans-serif; */
+  color: var(--colors-primary, #fff);
+  margin-bottom: 10px;
+}
+
+.description {
+  letter-spacing: 0.8px;
+  font: italic 400 16px/22px Open Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  color: var(--colors-primary, #fff);
+}
+
+.custom-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 55%; 
+  height: 6px; 
+  background-color:  #f29400; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: none;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev {
+  left: 10px;
+  top: calc(50%);
+}
+
+.carousel-control-next {
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: calc(50%);
+}
+.client-logo {
+  width: 150px; /* Increased size */
+  height: 150px; /* Increased size */
+  object-fit: contain;
+  margin: 0 20px; /* Increased horizontal margin */
+}
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap; /* Ensure logos stay in a single line */
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 30s linear infinite; /* Adjusted animation duration */
+}
+
+.marquee-inner {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+

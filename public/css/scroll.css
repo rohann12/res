@@ -1,0 +1,29 @@
+/* Custom scrollbar design */
+/* Width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+    /* Adjust the height of the scrollbar thumb */
+    height: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Hide scrollbar buttons (up and down arrows) */
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  
